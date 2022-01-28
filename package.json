@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "express": "^4.17.2",
+    "http-errors": "^2.0.0",
+    "jest": "^27.4.7",
+    "joi": "^17.6.0",
+    "mongoose": "^6.1.8",
+    "supertest": "^6.2.2"
+  },
+  "name": "assignment",
+  "version": "1.0.0",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "Backend Assignment"
+}
